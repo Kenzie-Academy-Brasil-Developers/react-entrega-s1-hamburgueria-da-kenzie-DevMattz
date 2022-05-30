@@ -1,0 +1,42 @@
+.lista {
+  width: 85rem;
+  max-width: 94rem;
+  min-width: 85rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .lista {
+    width: 66rem;
+    min-width: 66rem;
+  }
+}
+@media (max-width: 980px) {
+  .lista {
+    width: 60rem;
+    min-width: 60rem;
+  }
+}
+@media (max-width: 872px) {
+  .lista {
+    width: 50rem;
+    min-width: 50rem;
+  }
+}
+@media (max-width: 768px) {
+  .lista {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 519px) {
+  .lista {
+    min-width: 100%;
+  }
+}

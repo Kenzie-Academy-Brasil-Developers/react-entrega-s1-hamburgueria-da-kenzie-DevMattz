@@ -1,0 +1,47 @@
+.logo_container {
+  width: 55rem;
+  height: 3.6rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.logo_container h1 {
+  letter-spacing: 0.5px;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.logo_container p {
+  color: #eb5757;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-left: 1%;
+}
+
+@media (max-width: 1200px) {
+  .logo_container {
+    width: 40rem;
+  }
+}
+@media (max-width: 872px) {
+  .logo_container {
+    width: 20rem;
+  }
+  .logo_container h1 {
+    font-size: 2.8rem;
+  }
+  .logo_container p {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 519px) {
+  .logo_container {
+    width: 20rem;
+  }
+  .logo_container h1 {
+    font-size: 2.5rem;
+  }
+  .logo_container p {
+    font-size: 1.2rem;
+  }
+}
