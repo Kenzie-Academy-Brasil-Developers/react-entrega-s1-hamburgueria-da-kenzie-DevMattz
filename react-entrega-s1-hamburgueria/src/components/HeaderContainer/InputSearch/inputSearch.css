@@ -14,7 +14,7 @@
 .input_container input {
   border: none;
   outline: none;
-
+  background: #fff;
   height: 100%;
 }
 

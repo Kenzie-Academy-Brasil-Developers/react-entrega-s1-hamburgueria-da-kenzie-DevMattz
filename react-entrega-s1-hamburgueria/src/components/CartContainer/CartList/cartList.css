@@ -17,6 +17,10 @@
 }
 
 @media (max-width: 768px) {
+  .cart_lista {
+    max-height: 30vh;
+  }
+
   .cart_vazio {
     height: 20vh;
   }
