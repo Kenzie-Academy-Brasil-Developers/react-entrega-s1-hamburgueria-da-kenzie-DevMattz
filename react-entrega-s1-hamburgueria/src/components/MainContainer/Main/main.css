@@ -12,7 +12,7 @@
   .main_container {
     flex-direction: column;
     height: 100vh;
-    align-items: stretch;
-    justify-content: start;
+    align-items: flex-end;
+    justify-content: center;
   }
 }

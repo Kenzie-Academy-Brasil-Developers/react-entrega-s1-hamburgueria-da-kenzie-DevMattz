@@ -36,5 +36,14 @@
     width: 97%;
     margin: 15px auto;
     overflow-x: scroll;
+    height: 70rem;
+  }
+}
+
+@media (max-width: 519px) {
+  .cart_container {
+    width: 97%;
+    margin: 0 auto;
+    overflow-x: scroll;
   }
 }
